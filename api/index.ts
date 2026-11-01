@@ -1,4 +1,4 @@
-import app from '../src/server/apiApp';
+import app from '../server';
 
 // Vercel Serverless Function entrypoint
 export default app;
