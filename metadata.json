@@ -1,0 +1,8 @@
+{
+  "name": "Remix AgriSense IoT — Smart Agriculture Monitoring System",
+  "description": "Interactive IoT Smart Agriculture telemetry dashboard, Arduino UNO hardware simulator, automated irrigation controller, and CSV data logger built from Tenxed-rinx/IoT-Smart-Agriculture-Monitoring-System.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
