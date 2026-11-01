@@ -9,7 +9,8 @@ This guide walks you through deploying your **AgriSense IoT & Soil Intelligence 
 Your codebase is now 100% pre-configured for Vercel:
 1. **`vercel.json`**: Directs Vercel to build the frontend to `dist/`, routes all `/api/*` endpoints to the serverless function, and provides SPA routing for the client.
 2. **`api/index.ts`**: Serverless function entry point exporting your Express API (diagnostics, AI agronomist chat, and IoT big data generator).
-3. **`npm run build`**: Runs `vite build` cleanly with zero errors.
+3. **`.npmrc`**: Configured with `legacy-peer-deps=true` so Vercel's `npm install` never errors out on strict peer dependency resolution.
+4. **`npm run build`**: Runs `vite build` cleanly with zero errors.
 
 ---
 
